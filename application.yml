@@ -1,7 +1,7 @@
 eureka:
   instance:
     prefer-ip-address: true
-    hostname: ${HOSTNAME}
+    hostname: eureka-0
   client:
     serviceUrl:
-      defaultZone: ${EUREKA_URI}
+      defaultZone: http://eureka-0.eureka:8761/eureka
